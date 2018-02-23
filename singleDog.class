@@ -1,0 +1,17 @@
+//这是我的第二个文件，就用来写个类吧
+public class singleDog{
+   private String name;
+   private int age;
+   private double heigt;
+   private long money;
+   public singleDog(){
+   this("xiaoming",13,1.2,0);
+}
+  public singleDog(String name,int age,double height,long money){
+      this.name = name;
+      this.age = age;
+      this.height = height;
+      this.money = money;
+  }
+}
+   
